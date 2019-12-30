@@ -1,3 +1,8 @@
+<!--
+TODO
+- add eslint + prettier autofix
+- update webpack
+-->
 
 # displace.js
 
@@ -64,6 +69,10 @@ Assigns a child element as the moveable handle for the parent element.
 #### `highlightInputs`
 Allows you to highlight text in inputs and textareas by disabling drag events originating from those elements.
 ##### Default: `false`
+
+#### `ignoreFn`
+Function that allows you to prevent dragging from an event. If the function returns true, the event will be ignored.
+##### Default: `null`
 
 <br>
 
